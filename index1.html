@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+
+    <title>Plugin skabelon</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.min.js"></script>
+
+    <link href="css/styles1.min.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="wnidth=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="wrapper">
+<div class="container app">
+    <aside class="sidebar">
+        <h1 class="logo">
+            <a href="#">youth<strong>Mail</strong></a>
+        </h1>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Profil</a></li>
+                <li class="active">
+                    <a href="#">Email</a><br />
+                    <a href="#" class="btn btn-primary">Opret ny</a>
+                    <ul>
+                        <li class="active"><a href="#">Indbakke <span class="btn btn-primary">25</span></a></li>
+                        <li><a href="#">Kladde</a></li>
+                        <li><a href="#">Sendt</a></li>
+                        <li><a href="#">Papirkurv</a></li>
+                        <li><a href="#">Spam</a></li>
+                    </ul>
+                    <ul class="labels">
+                        <li><a href="#">Kontakter <span class="btn btn-primary label"></span></a></li>
+                        <li><a href="#">Venner <span class="btn btn-primary label"></span></a></li>
+                        <li><a href="#">Familie <span class="btn btn-primary label"></span></a></li>
+                        <li><a href="#">Skole <span class="btn btn-primary label"></span></a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Dokumenter</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="main">
+        <header class="header">
+            <form action="">
+                <input type="search" name="s" placeholder="Søg youthMail" />
+            </form>
+            <nav class="nav-settings">
+                <ul>
+                    <li><a href="#">Robin Witzner</a></li>
+                    <li><a href="#" class="icon icon-gear"></a></li>
+                </ul>
+            </nav>
+            <div class="clr"></div>
+        </header>
+        <div class="container">
+            <div class="messages">
+                <h1>Indbakke <span class="icon icon-arrow-down"></span></h1>
+                <form action="">
+                    <input type="search" class="search" placeholder="Søg indbakke" />
+                </form>
+                <ul class="message-list">
+                    <li class="new">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Jannick Olsen<small>1 December</small></h3>
+                            <p><strong>Fedt lavet! - </strong>E-mail interface ...</p>
+                        </div>
+                    </li>
+                    <li class="active">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Mia Hoffmann Nielsen <small>1 December</small></h3>
+                            <p>Animationsvideoen er færdig!</p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Mohammed Hassani <small>28 November</small></h3>
+                            <p><strong>Interface design - </strong>Hej Robin ...</p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Mohammed Hassani <small>28 November</small></h3>
+                            <p><strong>Webshop opgaven - </strong>Her der er ...</p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Mohammed Hassani <small>28 November</small></h3>
+                            <p><strong>Webshop opgaven - </strong>Næsten fær ...</p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Jannick Olsen <small>27 November</small></h3>
+                            <p><strong>Virksomhed.. Spiderweb</strong></p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Jannick Olsen <small>27 November</small></h3>
+                            <p><strong>Syg. Kommer ikke i morgen </strong></p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Kim Revsbæk <small>26 November</small></h3>
+                            <p><strong>Jeres gruppe er simpelthen den bedste! </strong></p>
+                        </div>
+                    </li>
+                    <li class="new">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Kim Revsbæk <small>26 November</small></h3>
+                            <p><strong>Karakter! (hint: 12!!) - </strong> Hej Robi ...</p>
+                        </div>
+                    </li>
+                    <li class="">
+                        <input type="checkbox" />
+                        <div class="preview">
+                            <h3>Kim Revsbæk <small>26 November</small></h3>
+                            <p><strong>Zealands førende! </strong>Hej ...</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <section class="message">
+                <h2><span class="icon icon-star-large"></span> Animationsvideoen er færdig! <span class="icon icon-reply-large"></span><span class="icon icon-delete-large"></span></h2>
+                <div class="meta-data">
+                    <p>
+                        <img src="img/mia.jpg" class="avatar" alt="" />
+                        Mia Hoffmann Nielsen til <span class="user">mig</span>
+                        <span class="date">1 December, 2019</span>
+                    </p>
+                </div>
+                <div class="body">
+                    <p>Hej Robin,</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam modi possimus dignissimos maxime ipsa unde voluptatum consectetur harum debitis dolorum quas quibusdam vero iusto ducimus blanditiis. Enim autem illo praesentium est quis ab voluptate sequi quia magnam deleniti vero dicta iste. Harum velit asperiores expedita inventore error nulla eius nostrum voluptas aspernatur at quia eaque ipsa deserunt quas doloribus totam incidunt mollitia iure! Libero laudantium nobis necessitatibus veniam autem molestias distinctio voluptas quos aliquam vitae. Consequuntur adipisci natus hic sed rerum dolore cumque numquam illum rem at quaerat reprehenderit iste quis maiores fuga voluptates delectus suscipit dicta nulla itaque placeat.</p>
+                    <p>Vi snakkes!</p>
+                </div>
+                <div class="action">
+                    <ul class="options">
+                        <li><a href="#" class="active">Besvar</a></li>
+                        <li><a href="#">Videresend</a></li>
+                        <div class="clr"></div>
+                    </ul>
+                    <div class="textarea">
+            <textarea name="r">Hej Mia,
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit qui impedit magni fuga velit nobis quas fugit odio voluptas voluptates odit animi quos nam dolorem harum molestiae culpa sint rem ad esse laboriosam vero quod molestias porro ea dolores eligendi!
+            </textarea>
+                        <div class="fileupload container">
+                            <span class="fileinfo">Animationsvideoen.pdf</span>
+                            <div class="progress">
+                                <div class="bar">65%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
