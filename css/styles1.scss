@@ -28,8 +28,7 @@ a {
   background-image: url("../img/backgroundimg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 200px;
-  margin-top: -100px;
+  padding: 50px;
 }
 
 .avatar{
@@ -362,5 +361,19 @@ a {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    background-image: url("../img/backgroundimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  .body {
+   margin: 0px;
   }
 }
