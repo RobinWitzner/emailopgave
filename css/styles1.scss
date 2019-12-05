@@ -122,7 +122,11 @@ a {
       display: none;
     }
     .visMere{
-      margin-left: 35%;
+      background: $accent;
+      border-radius: 4px;
+      margin: 10px 30px;
+      padding: 10px;
+      text-align: center;
     }
   }
 
