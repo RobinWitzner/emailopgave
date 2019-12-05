@@ -39,6 +39,10 @@
                         <li><a href="#">Sendt</a></li>
                         <li><a href="#">Papirkurv</a></li>
                         <li><a href="#">Spam</a></li>
+                        <li class="hidden"><a href="#">Udbakke</a></li>
+                        <li class="hidden"><a href="#">Al post</a></li>
+                        <li class="hidden"><a href="#">Stjernemarkerede</a></li>
+                        <button class="visMere">Vis mere</button>
                     </ul>
                     <ul class="labels">
                         <li><a href="#">Kontakter <span class="btn btn-primary label"></span></a></li>
@@ -181,5 +185,12 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit qui impedit magni 
 </div>
 </div>
 
+<script>
+    $(document).ready(function(){
+        $(".visMere").click(function(){
+            $(".hidden").toggle("slow");
+        });
+    });
+</script>
 </body>
 </html>
